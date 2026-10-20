@@ -1,0 +1,52 @@
+@import "tailwindcss";
+
+@font-face {
+  font-family: "MoonTime";
+  src: url("./assets/fonts/MoonTime_Regular.otf") format("opentype");
+}
+
+@font-face {
+  font-family: "NewKansasSwash";
+  src: url("./assets/fonts/NewKansasSwash.otf") format("opentype");
+}
+
+@tailwind utilities;
+
+@theme {
+  --font-MoonTime: "MoonTime", Arial;
+  --font-NewKansasSwash: "NewKansasSwash", Arial;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+html,
+body {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+  font-family: Arial;
+}
+
+::selection {
+  background: oklch(90.1% 0.058 230.902);
+  color: black;
+}
+
+::-moz-selection {
+  background: oklch(90.1% 0.058 230.902);
+  color: black;
+}
+
+::-webkit-selection {
+  background: oklch(90.1% 0.058 230.902);
+  color: black;
+}
+
+.draw-this {
+  stroke: white;
+  fill: white;
+  fill-opacity: 0;
+  stroke-width: 1;
+  stroke-dashoffset: 1200;
+  stroke-dasharray: 1200;
+}
