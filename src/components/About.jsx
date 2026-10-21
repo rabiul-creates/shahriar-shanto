@@ -1,3 +1,8 @@
+import cloudyDhaka from "/src/assets/images/cloudy-dhaka.jpg";
+import boxes from "/src/assets/images/boxes.jpg";
+import minicart from "/src/assets/images/minicart.jpg";
+import developer from "/src/assets/images/developer.jpg";
+
 export default function About() {
   return (
     <div
@@ -33,7 +38,9 @@ export default function About() {
                 better.
               </p>
             </div>
-            <div className="bg-gray-700 w-full max-w-lg h-full hidden md:block"></div>
+            <div className="bg-gray-700 w-full max-w-lg h-full hidden md:block">
+              <img src={developer} className="w-full h-full object-cover" />
+            </div>
           </div>
 
           <div className="w-full  flex gap-5 flex-col md:flex-row items-center justify-between">
@@ -64,10 +71,18 @@ export default function About() {
           </div>
 
           <div className="w-full  gap-3 flex items-center justify-between   md:hidden">
-            <div className=" w-[20vw] max-w-80 aspect-square bg-neutral-800"></div>{" "}
-            <div className=" w-[20vw] max-w-80 aspect-square bg-neutral-800"></div>{" "}
-            <div className=" w-[20vw] max-w-80 aspect-square bg-neutral-800"></div>{" "}
-            <div className=" w-[20vw] max-w-80 aspect-square bg-neutral-800"></div>{" "}
+            <div className=" w-[20vw] max-w-80 aspect-square bg-neutral-800">
+              <img src={cloudyDhaka} className="w-full h-full object-cover" />
+            </div>
+            <div className=" w-[20vw] max-w-80 aspect-square bg-neutral-800">
+              <img src={boxes} className="w-full h-full object-cover" />
+            </div>
+            <div className=" w-[20vw] max-w-80 aspect-square bg-neutral-800">
+              <img src={minicart} className="w-full h-full object-cover" />
+            </div>
+            <div className=" w-[20vw] max-w-80 aspect-square bg-neutral-800">
+              <img src={developer} className="w-full h-full object-cover" />
+            </div>
           </div>
         </div>
       </div>

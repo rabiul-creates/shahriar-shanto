@@ -1,4 +1,10 @@
 import { motion } from "motion/react";
+import perfume1 from "/src/assets/images/perfume1.jpg";
+import perfume2 from "/src/assets/images/perfume2.jpg";
+import perfume3 from "/src/assets/images/perfume3.jpg";
+import garden1 from "/src/assets/images/garden1.jpg";
+import garden2 from "/src/assets/images/garden2.jpg";
+import garden3 from "/src/assets/images/garden3.jpg";
 
 export default function Work() {
   const parentVariant = {
@@ -56,19 +62,34 @@ export default function Work() {
                     variants={childVariant}
                     className="absolute top-0 right-0 w-25 h-30 sm:w-30 sm:h-40 p-1.5 bg-white border border-black/30 shadow-xl z-1  shadow-black/20 rotate-5 translate-y-0 md:translate-y-5"
                   >
-                    <div className="w-full h-full bg-neutral-600"></div>
+                    <div className="w-full h-full bg-neutral-600">
+                      <img
+                        src={perfume1}
+                        className="w-full h-full object-cover"
+                      />
+                    </div>
                   </motion.div>
                   <motion.div
                     variants={childVariant2}
                     className="absolute top-0 right-40 w-25 h-30 sm:w-30 sm:h-40 p-1.5 bg-white border border-black/30 shadow-xl z-1  shadow-black/20 -rotate-15 translate-y-2 md:translate-y-10"
                   >
-                    <div className="w-full h-full bg-neutral-600"></div>
+                    <div className="w-full h-full bg-neutral-600">
+                      <img
+                        src={perfume2}
+                        className="w-full h-full object-cover"
+                      />
+                    </div>
                   </motion.div>
                   <motion.div
                     variants={childVariant3}
                     className="absolute top-2 right-15 w-25 h-30 sm:w-30 sm:h-40 p-1.5 bg-white border border-black/30 shadow-xl z-1  shadow-black/20 rotate-5 translate-y-0 md:translate-y-5"
                   >
-                    <div className="w-full h-full bg-neutral-600"></div>
+                    <div className="w-full h-full bg-neutral-600">
+                      <img
+                        src={perfume3}
+                        className="w-full h-full object-cover"
+                      />
+                    </div>
                   </motion.div>
                 </div>
               </motion.div>
@@ -105,19 +126,36 @@ export default function Work() {
                     variants={childVariant}
                     className="absolute top-0 right-0 w-25 h-30 sm:w-30 sm:h-40 p-1.5 bg-white border border-black/30 shadow-xl z-1  shadow-black/20 rotate-5 translate-y-0 md:translate-y-5"
                   >
-                    <div className="w-full h-full bg-neutral-600"></div>
+                    <div className="w-full h-full bg-neutral-600">
+                      <img
+                        src={garden1}
+                        className="w-full h-full object-cover"
+                      />
+                    </div>
                   </motion.div>
                   <motion.div
                     variants={childVariant2}
                     className="absolute top-0 right-40 w-25 h-30 sm:w-30 sm:h-40 p-1.5 bg-white border border-black/30 shadow-xl z-1  shadow-black/20 -rotate-15 translate-y-2 md:translate-y-10"
                   >
-                    <div className="w-full h-full bg-neutral-600"></div>
+                    <div className="w-full h-full bg-neutral-600">
+                      {" "}
+                      <img
+                        src={garden2}
+                        className="w-full h-full object-cover"
+                      />
+                    </div>
                   </motion.div>
                   <motion.div
                     variants={childVariant3}
                     className="absolute top-2 right-15 w-25 h-30 sm:w-30 sm:h-40 p-1.5 bg-white border border-black/30 shadow-xl z-1  shadow-black/20 rotate-5 translate-y-0 md:translate-y-5"
                   >
-                    <div className="w-full h-full bg-neutral-600"></div>
+                    <div className="w-full h-full bg-neutral-600">
+                      {" "}
+                      <img
+                        src={garden3}
+                        className="w-full h-full object-cover"
+                      />
+                    </div>
                   </motion.div>
                 </div>
               </motion.div>
