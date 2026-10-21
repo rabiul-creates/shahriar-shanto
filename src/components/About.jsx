@@ -64,8 +64,8 @@ export default function About() {
                 <p className="text-black text-sm">Globally</p>
               </div>
               <div className="px-2 py-2 border-l-4 border-sky-200  space-y-1">
-                <p>Currently at</p>
-                <p className="text-black text-sm">Xyz builders</p>
+                <p>Current status</p>
+                <p className="text-black text-sm">Open for projects</p>
               </div>
             </div>
           </div>
