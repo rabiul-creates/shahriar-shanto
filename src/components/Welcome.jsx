@@ -17,7 +17,7 @@ export default function Welcome() {
     tl.to(".draw-this", {
       strokeDashoffset: 0,
       delay: 1,
-      duration: 5,
+      duration: 3,
 
       ease: "none",
     });
@@ -36,7 +36,7 @@ export default function Welcome() {
       ".draw-this",
       {
         opacity: 0,
-        duration: 4,
+        duration: 3,
 
         ease: "ease.in",
       },
@@ -67,7 +67,7 @@ export default function Welcome() {
   return (
     <section
       ref={welcomeRef}
-      className=" w-screen h-screen fixed top-0 z-99 bg-sky-600 flex items-center justify-center font-MoonTime  text-white"
+      className=" w-screen h-screen fixed top-0 z-99 bg-sky-700 flex items-center justify-center font-MoonTime  text-white"
     >
       <svg className="draw-this w-[600px]" viewBox="0 0 600 330">
         <text x="50%" y="50%" dy="0.32em" textAnchor="middle" fontSize="100">

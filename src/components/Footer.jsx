@@ -23,7 +23,7 @@ export default function Footer() {
               <p>I can show you the silver lining.</p>
             </div>
 
-            <button className="px-2 py-2 sm:px-3 sm:py-3 rounded-sm  text-xs sm:text-sm md:text-md text-white bg-neutral-800 hover:bg-sky-200 active:bg-sky-200  transition-all duration-500  active:scale-96 hover:text-black active:text-black ease-in-out  focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-white ">
+            <button className="px-2 py-2 sm:px-3 sm:py-3 rounded-sm  text-xs sm:text-sm md:text-md bg-sky-300 text-black  hover:bg-neutral-800 active:bg-neutral-800 transition-all duration-400  active:scale-96 hover:text-white active:text-white ease-in-out  focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-white ">
               Tell me about your store
             </button>
           </div>
